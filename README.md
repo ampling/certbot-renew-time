@@ -1,8 +1,8 @@
 # certbot-renew-time
 
-Silence those notification emails from expiry@letsencrypt.com.
+Silence those notification emails from expiry at letsencrypt dot com.
 
-1) git clone https://github.com/ampling/certbot-renew-time
+1) `git clone https://github.com/ampling/certbot-renew-time`
 2) cd certbot-renew-time
 2) chmod +x ./certbot-renew-time
 3) rsync ./certbot-renew-time /usr/local/bin/
