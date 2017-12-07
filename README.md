@@ -1,6 +1,13 @@
 # certbot-renew-time
 
-Lets encrypt is outstanding, but, receiving those expiry notifications emails and running the certbot renew manually gets old fast.  After reading the documentation more thoroughly, I found a setup which works for me and I've been asked to share.  This simple script should be safe to run daily. Web-server configurable. Additional email notifications are off by default.
+
+There are many ways to setup certbot to automatically renew your Let's Encrypt SSL/ TLS certifications for you. This sample configuration should work well with any Linux box utilizing the power of systemd timers.
+
+**Features**
+Safe to run daily. 
+Web-server configurable. (restarts only when needed)
+Email notifications. (optional)
+
 
 
 ```
