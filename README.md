@@ -1,6 +1,7 @@
 # certbot-renew-time
 
-Silence those notification emails from expiry *at* letsencrypt *dot* com.
+Lets encrypt is outstanding, but, receiving those expiry notifications emails and running the certbot renew manually gets old fast.  After reading the documentation more thoroughly, I found a setup which works for me and I've been asked to share.  This simple script should be safe to run daily. Web-server configurable. Additional email notifications are off by default.
+
 
 ```
 $ git clone https://github.com/ampling/certbot-renew-time
