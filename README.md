@@ -1,6 +1,6 @@
 # certbot-renew-time
 
-There are many ways to setup certbot to automatically renew your Let's Encrypt SSL/ TLS certifications. This sample configuration should work well with any modern Linux stack utilizing the power of systemd timers.
+There are many ways to setup certbot to enable automatic renewal of your Let's Encrypt SSL/ TLS certifications. This sample configuration should work well with any modern Linux stack utilizing the power of systemd timers.
 
 
 **Features:**
